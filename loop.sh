@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Initialize counter variable
+i=10
+
+# Loop 3 times
+until [[ $i -eq 0 ]]; do
+# Do something on each iteration
+    echo "Iteration $i"
+# Decrement counter variable
+   i=$((i-1))
+done
